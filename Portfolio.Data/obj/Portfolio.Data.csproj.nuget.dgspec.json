@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/Portfolio.Data.csproj": {}
+  },
+  "projects": {
+    "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj",
+        "projectName": "Portfolio.Core",
+        "projectPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj",
+        "packagesPath": "/Users/samanthanamugema/.nuget/packages/",
+        "outputPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samanthanamugema/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/Portfolio.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/Portfolio.Data.csproj",
+        "projectName": "Portfolio.Data",
+        "projectPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/Portfolio.Data.csproj",
+        "packagesPath": "/Users/samanthanamugema/.nuget/packages/",
+        "outputPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samanthanamugema/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj": {
+                "projectPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

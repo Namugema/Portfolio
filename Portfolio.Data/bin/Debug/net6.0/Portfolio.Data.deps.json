@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Portfolio.Data/1.0.0": {
+        "dependencies": {
+          "Portfolio.Core": "1.0.0"
+        },
+        "runtime": {
+          "Portfolio.Data.dll": {}
+        }
+      },
+      "Portfolio.Core/1.0.0": {
+        "runtime": {
+          "Portfolio.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Portfolio.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Portfolio.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

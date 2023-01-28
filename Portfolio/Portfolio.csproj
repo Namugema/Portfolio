@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>OdeToFood</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'OdeToFood' " />
+  <ItemGroup>
+    <None Remove="Pages\Projects\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\Projects\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Portfolio.Data\Portfolio.Data.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

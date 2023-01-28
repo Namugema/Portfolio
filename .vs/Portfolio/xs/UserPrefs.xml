@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{8244ED75-08AB-4211-AB64-975EEF73EFF3}|OdeToFood">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Portfolio.Data/IProjectData.cs">
+    <Files>
+      <File FileName="OdeToFood/Pages/Projects/List.cshtml.cs" Line="23" Column="41" />
+      <File FileName="Portfolio.Core/Projects.cs" Line="8" Column="17" />
+      <File FileName="Portfolio.Core/ProjectStatus.cs" Line="1" Column="1" />
+      <File FileName="Portfolio.Data/IProjectData.cs" Line="17" Column="14" />
+      <File FileName="OdeToFood/Program.cs" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Portfolio" expanded="True">
+            <Node name="Portfolio" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Portfolio.Core" expanded="True" />
+            <Node name="Portfolio.Data" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Portfolio.Data FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Portfolio PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,15 @@
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/bin/Debug/net6.0/Portfolio.Data.deps.json
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/bin/Debug/net6.0/Portfolio.Data.dll
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/bin/Debug/net6.0/Portfolio.Data.pdb
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/bin/Debug/net6.0/Portfolio.Core.dll
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/bin/Debug/net6.0/Portfolio.Core.pdb
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/Portfolio.Data.csproj.AssemblyReference.cache
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/Portfolio.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/Portfolio.Data.AssemblyInfoInputs.cache
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/Portfolio.Data.AssemblyInfo.cs
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/Portfolio.Data.csproj.CoreCompileInputs.cache
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/Portfolio.Data.csproj.CopyComplete
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/Portfolio.Data.dll
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/refint/Portfolio.Data.dll
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/Portfolio.Data.pdb
+/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/Debug/net6.0/ref/Portfolio.Data.dll
