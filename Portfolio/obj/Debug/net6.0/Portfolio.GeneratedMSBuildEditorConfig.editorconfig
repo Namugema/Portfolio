@@ -9,49 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Portfolio
 build_property.RootNamespace = Portfolio
-build_property.ProjectDir = /Users/samanthanamugema/Projects/OdeToFood/OdeToFood/
+build_property.ProjectDir = /Users/samanthanamugema/Projects/Portfolio/Portfolio/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/samanthanamugema/Projects/OdeToFood/OdeToFood
+build_property.MSBuildProjectDirectory = /Users/samanthanamugema/Projects/Portfolio/Portfolio
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/Error.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/Index.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/Privacy.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/Projects/Contact.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Projects/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdHMvQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/Projects/Detail.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Projects/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdHMvRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/Projects/List.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Projects/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdHMvTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Projects/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdHMvTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/_ViewImports.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/_ViewStart.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samanthanamugema/Projects/OdeToFood/OdeToFood/Pages/Shared/_Layout.cshtml]
+[/Users/samanthanamugema/Projects/Portfolio/Portfolio/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-aof4mxdatj

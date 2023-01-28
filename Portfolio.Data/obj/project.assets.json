@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/Portfolio.Data.csproj",
+      "projectUniqueName": "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Data/Portfolio.Data.csproj",
       "projectName": "Portfolio.Data",
-      "projectPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/Portfolio.Data.csproj",
+      "projectPath": "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Data/Portfolio.Data.csproj",
       "packagesPath": "/Users/samanthanamugema/.nuget/packages/",
-      "outputPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Data/obj/",
+      "outputPath": "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samanthanamugema/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj": {
-              "projectPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj"
+            "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Core/Portfolio.Core.csproj": {
+              "projectPath": "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Core/Portfolio.Core.csproj"
             }
           }
         }

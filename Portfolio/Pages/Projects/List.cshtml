@@ -34,6 +34,11 @@
             <td>@project.Description</td>
             <td>@project.GithubRepo</td>
             <td>@project.Status</td>
+            <td>
+                <a class="btn btn-lg" asp-page="./Detail" asp-route-projectId="@project.Id">
+                    <i class="glyphicon glyphicon-zoom-in"></i>
+                </a>
+            </td>
         </tr>
     }
 </table>

@@ -5,7 +5,8 @@ namespace Portfolio.Data
 	public interface IProjectData
 	{
 		IEnumerable<Project> GetProjectByName(string name);
-	}
+        Project getById(int Id);
+    }
 
     public class InMemoryProjectData : IProjectData
     {
@@ -28,6 +29,11 @@ namespace Portfolio.Data
                    where string.IsNullOrEmpty(name) || p.Name.ToLower().Contains(name.ToLower())
                    orderby p.Status
                    select p;
+        }
+
+        public Project getById(int Id)
+        {
+            return projects.SingleOrDefault(r => r.Id == Id);
         }
     }
 }

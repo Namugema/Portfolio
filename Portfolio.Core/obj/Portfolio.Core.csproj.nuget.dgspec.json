@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj": {}
+    "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Core/Portfolio.Core.csproj": {}
   },
   "projects": {
-    "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj": {
+    "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Core/Portfolio.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj",
+        "projectUniqueName": "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Core/Portfolio.Core.csproj",
         "projectName": "Portfolio.Core",
-        "projectPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/Portfolio.Core.csproj",
+        "projectPath": "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Core/Portfolio.Core.csproj",
         "packagesPath": "/Users/samanthanamugema/.nuget/packages/",
-        "outputPath": "/Users/samanthanamugema/Projects/OdeToFood/Portfolio.Core/obj/",
+        "outputPath": "/Users/samanthanamugema/Projects/Portfolio/Portfolio.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/samanthanamugema/.nuget/NuGet/NuGet.Config"
