@@ -1,11 +1,12 @@
 ﻿@page
 @model Portfolio.Pages.Projects.ContactModel
 @{
+    ViewData["Title"] = "Contact";
 }
 <h4>Contact form</h4>
 
 <form action="/update" method="post">
     <label for="fName">First Name</label>
     <input type="text" name="fName" />
-    <button type="submit">Save</button>
+    <button type="submit" class="btn btn-primary">Save</button>
 </form>

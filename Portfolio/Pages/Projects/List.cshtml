@@ -1,6 +1,7 @@
 ﻿@page
 @model Portfolio.Pages.Projects.ListModel
 @{
+    ViewData["Title"] = "Projects";
 }
 
 <h2>List of projects</h2>
@@ -37,6 +38,9 @@
             <td>
                 <a class="btn btn-lg" asp-page="./Detail" asp-route-projectId="@project.Id">
                     <i class="glyphicon glyphicon-zoom-in"></i>
+                </a>
+                <a class="btn btn-lg" asp-page="./Edit" asp-route-projectId="@project.Id">
+                    <i class="glyphicon glyphicon-edit"></i>
                 </a>
             </td>
         </tr>

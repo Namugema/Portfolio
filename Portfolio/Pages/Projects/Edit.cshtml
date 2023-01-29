@@ -1,0 +1,38 @@
+﻿@page "{projectId:int}"
+@model Portfolio.Pages.Projects.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+<h3>Editing Project: @Model.project.Name</h3>
+
+<form method="post">
+    <input type="hidden" asp-for="project.Id" />
+    <div class="form-group">
+        <label asp-for="project.Name"></label>
+        <input asp-for="project.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="project.Description"></label>
+        <input asp-for="project.Description" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="project.GithubRepo"></label>
+        <input asp-for="project.GithubRepo" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="project.startDate"></label>
+        <input type="date" asp-for="project.startDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="project.endDate"></label>
+        <input type="date" asp-for="project.endDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="project.Status"></label>
+        <select class="form-control" asp-for="project.Status" asp-items="Model.Statuses">
+
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

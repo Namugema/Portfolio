@@ -6,6 +6,8 @@ namespace Portfolio.Data
 	{
 		IEnumerable<Project> GetProjectByName(string name);
         Project getById(int Id);
+        Project Update(Project updatedProject);
+        int Commit();
     }
 
     public class InMemoryProjectData : IProjectData
@@ -34,6 +36,21 @@ namespace Portfolio.Data
         public Project getById(int Id)
         {
             return projects.SingleOrDefault(r => r.Id == Id);
+        }
+
+        public Project Update(Project updatedProject)
+        {
+            var project = projects.SingleOrDefault(r => r.Id == updatedProject.Id);
+            if(project != null)
+            {
+                project = updatedProject;
+            }
+            return project;
+        }
+
+        public int Commit()
+        {
+            return 0;
         }
     }
 }
