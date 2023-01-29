@@ -28,8 +28,9 @@ namespace Portfolio.Pages.Projects
 
         public IActionResult OnGet(int projectID)
         {
-            project = projectData.getById(projectID);
             Statuses = htmlHelper.GetEnumSelectList<ProjectStatus>();
+            project = projectData.getById(projectID);
+            
 
             if(project == null)
             {
@@ -41,9 +42,14 @@ namespace Portfolio.Pages.Projects
 
         public IActionResult OnPost()
         {
-            project = projectData.Update(project);
-            projectData.Commit();
+            Statuses = htmlHelper.GetEnumSelectList<ProjectStatus>();
 
+            if (ModelState.IsValid)
+            {
+                projectData.Update(project);
+                projectData.Commit();
+                return RedirectToPage("./Detail", new { projectId = project.Id });
+            }
             return Page();
         }
     }
