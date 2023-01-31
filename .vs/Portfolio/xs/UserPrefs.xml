@@ -1,18 +1,35 @@
 ﻿<Properties StartupConfiguration="{047D55E6-1FF1-4BA1-9C18-E91E9D203E30}|OdeToFood">
+  <DisabledProjects>
+    <String>OdeToFood/Portfolio.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Portfolio.Core/ProjectStatus.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Portfolio PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Portfolio/appsettings.json">
     <Files>
-      <File FileName="Portfolio/Pages/Projects/Edit.cshtml" Line="1" Column="23" />
-      <File FileName="Portfolio/Pages/Projects/Edit.cshtml.cs" Line="39" Column="41" />
-      <File FileName="Portfolio.Data/IProjectData.cs" Line="9" Column="17" />
-      <File FileName="Portfolio/Pages/Projects/List.cshtml" Line="44" Column="21" />
-      <File FileName="Portfolio.Core/ProjectStatus.cs" Line="5" Column="13" />
+      <File FileName="Portfolio.Data/IProjectData.cs" Line="16" Column="23" />
+      <File FileName="Portfolio.Data/PortfolioDbContext.cs" Line="18" Column="1" />
+      <File FileName="Portfolio/appsettings.json" Line="9" Column="40" />
+      <File FileName="Portfolio/Program.cs" Line="10" Column="3" />
+      <File FileName="Portfolio/Pages/Projects/List.cshtml" Line="1" Column="1" />
+      <File FileName="Portfolio/Pages/Projects/List.cshtml.cs" Line="14" Column="40" />
+      <File FileName="Portfolio.Core/Project.cs" Line="16" Column="22" />
+      <File FileName="Portfolio/Pages/Projects/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="Portfolio.Data/Migrations/20230131192129_initialcreate.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Portfolio" expanded="True">
             <Node name="Portfolio" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Projects" expanded="True">
                   <Node name="Detail.cshtml" expanded="True" />
@@ -22,22 +39,16 @@
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>
-            <Node name="Portfolio.Core" expanded="True">
-              <Node name="ProjectStatus.cs" selected="True" />
+            <Node name="Portfolio.Core" expanded="True" />
+            <Node name="Portfolio.Data" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20230131192129_initialcreate.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="Portfolio.Data" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Portfolio PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <DisabledProjects>
-    <String>OdeToFood/Portfolio.csproj</String>
-  </DisabledProjects>
 </Properties>

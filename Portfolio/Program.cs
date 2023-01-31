@@ -1,10 +1,14 @@
-﻿using Portfolio.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using Portfolio.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IProjectData, InMemoryProjectData>();
+builder.Services.AddDbContextPool<PortfolioDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("PortfolioDb"))
+);
+builder.Services.AddScoped<IProjectData, SqlProjectData>();
 
 var app = builder.Build();
 

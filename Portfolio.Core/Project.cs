@@ -15,8 +15,8 @@ namespace Portfolio.Core
 
 		public string GithubRepo { get; set; } = string.Empty;
         public string ProjectImage { get; set; } = string.Empty;
-		public DateOnly StartDate { get; set; }
-		public DateOnly EndDate { get; set; }
+		public DateTime StartDate { get; set; }
+		public DateTime EndDate { get; set; }
 
 		[Required]
 		public ProjectStatus Status { get; set; }
