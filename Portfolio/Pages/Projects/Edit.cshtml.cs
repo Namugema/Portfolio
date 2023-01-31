@@ -26,10 +26,18 @@ namespace Portfolio.Pages.Projects
             this.htmlHelper = htmlHelper;
         }
 
-        public IActionResult OnGet(int projectID)
+        public IActionResult OnGet(int? projectID)
         {
             Statuses = htmlHelper.GetEnumSelectList<ProjectStatus>();
-            project = projectData.getById(projectID);
+
+            if (projectID.HasValue)
+            {
+                project = projectData.getById(projectID.Value);
+            }
+            else
+            {
+                project = new Project();
+            }
             
 
             if(project == null)
@@ -44,13 +52,23 @@ namespace Portfolio.Pages.Projects
         {
             Statuses = htmlHelper.GetEnumSelectList<ProjectStatus>();
 
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            if(project.Id > 0)
             {
                 projectData.Update(project);
-                projectData.Commit();
-                return RedirectToPage("./Detail", new { projectId = project.Id });
             }
-            return Page();
+            else
+            {
+                projectData.Add(project);
+            }
+            projectData.Commit();
+
+            TempData["Message"] = "Project saved!";
+            return RedirectToPage("./Detail", new { projectId = project.Id });
         }
     }
 }

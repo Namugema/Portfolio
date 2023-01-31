@@ -13,6 +13,8 @@ namespace Portfolio.Pages.Projects
     {
         private readonly IProjectData projectData;
 
+        [TempData]
+        public string Message { get; set; }
         public Project Project { get; set; } = new Project();
 
         public DetailModel(IProjectData projectData)

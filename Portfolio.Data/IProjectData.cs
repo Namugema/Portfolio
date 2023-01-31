@@ -7,6 +7,7 @@ namespace Portfolio.Data
 		IEnumerable<Project> GetProjectByName(string name);
         Project getById(int Id);
         Project Update(Project updatedProject);
+        Project Add(Project newProject);
         int Commit();
     }
 
@@ -43,7 +44,13 @@ namespace Portfolio.Data
             var project = projects.SingleOrDefault(r => r.Id == updatedProject.Id);
             if(project != null)
             {
-                project = updatedProject;
+                //project = updatedProject;
+                project.Name = updatedProject.Name;
+                project.Description = updatedProject.Description;
+                project.Status = updatedProject.Status;
+                project.StartDate = updatedProject.StartDate;
+                project.EndDate = updatedProject.EndDate;
+                project.GithubRepo = updatedProject.GithubRepo;
             }
             return project;
         }
@@ -51,6 +58,13 @@ namespace Portfolio.Data
         public int Commit()
         {
             return 0;
+        }
+
+        public Project Add(Project newProject)
+        {
+            projects.Add(newProject);
+            newProject.Id = projects.Max(r => r.Id) + 1;
+            return newProject;
         }
     }
 }
